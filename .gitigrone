@@ -1,0 +1,15 @@
+# File konfigurasi rahasia
+.env
+.env.*
+
+# Bukti pembayaran pelanggan
+/uploads/bukti_bayar/*
+/uploads/bukti_pembayaran/*
+
+# Backup database
+*.sql
+*.sql.gz
+*.bak
+
+# File log
+*.log
